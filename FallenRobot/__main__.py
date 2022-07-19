@@ -76,7 +76,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*ʜᴇʏ,\n ʏᴏᴜ ᴀʀᴇ ᴍᴇᴇᴛɪɴɢ ᴛᴏ {}* [!](https://telegra.ph/file/fd6462fefbb3470e0a328.mp4)\n\n *ɪ ᴀᴍ ᴀ  ʙᴏᴛ ᴛᴏ ᴍᴀɴɢᴀᴇ ᴛɢ ɢʀᴏᴘᴜs ᴀɴᴅ ᴄʜᴀᴛs.\n  ʏᴏᴜ ᴄᴀɴ sᴇᴇ ᴍʏ ᴄᴏᴏʟ ғᴇᴀᴛᴜʀᴇs ɪɴ ᴄᴏᴍᴍᴀɴᴅs ᴍᴇɴᴜ\ɴ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴘʀᴇss *​ /help
+*ʜᴇʏ,\n ʏᴏᴜ ᴀʀᴇ ᴍᴇᴇᴛɪɴɢ ᴛᴏ {}* [!](https://telegra.ph/file/fd6462fefbb3470e0a328.mp4)\n\n *ɪ ᴀᴍ ᴀ  ʙᴏᴛ ᴛᴏ ᴍᴀɴɢᴀᴇ ᴛɢ ɢʀᴏᴘᴜs ᴀɴᴅ ᴄʜᴀᴛs.\n\n  ʏᴏᴜ ᴄᴀɴ sᴇᴇ ᴍʏ ᴄᴏᴏʟ ғᴇᴀᴛᴜʀᴇs ɪɴ ᴄᴏᴍᴍᴀɴᴅs ᴍᴇɴᴜ\ɴ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴘʀᴇss *​ /help
 """
 
 buttons = [
@@ -90,13 +90,13 @@ buttons = [
         InlineKeyboardButton(text="🧐 ʜᴇʟᴘ & ᴄᴍᴅs​​​ 🧐", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="👀 A̸B̸O̸U̸T̸ M̸E̸ ​​ 👀", callback_data="fallen_"),
-        InlineKeyboardButton(text="🙊 S̸O̸U̸R̸C̸E̸ C̸O̸D̸E̸ 🙊", callback_data="source_"),
+        InlineKeyboardButton(text="👀 𝗔ʙᴏᴜᴛ 𝙼𝚎 ​​ 👀", callback_data="fallen_"),
+        InlineKeyboardButton(text="🙊 𝗦𝚘𝚞𝚛𝚌𝚎 ᴄᴏᴅᴇ 🙊", callback_data="source_"),
     ],
     [
-        InlineKeyboardButton(text="👥 S̸U̸P̸P̸O̸R̸T̸ 👥", url=f"https://t.me/lockroom"),
+        InlineKeyboardButton(text="👥𝗦ᴜ𝚙𝚙ᴏʀᴛ 👥", url=f"https://t.me/lockroom"),
         InlineKeyboardButton(
-            text="🥵𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥🥵 ", url="https://t.me/Kya_rakhu_smjh_nhi_aa_rha"
+            text="🥵𝗗𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛🥵 ", url="https://t.me/Kya_rakhu_smjh_nhi_aa_rha"
         ),
     ],
 ]

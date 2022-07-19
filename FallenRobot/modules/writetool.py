@@ -23,7 +23,7 @@ sᴜᴄᴄᴇssғᴜʟʟʏ ᴡʀɪᴛᴛᴇɴ ᴛᴇxᴛ 💘
 
 ✨ **ᴡʀɪᴛᴛᴇɴ ʙʏ :** [{dispatcher.bot.first_name}](https://t.me/{dispatcher.bot.username})
 🥀 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {message.from_user.mention}
-"""
+ʟɪᴋʜ ᴅɪʏᴀ ɴᴏᴡ ɢɪʙ ᴘᴀʀᴛʏ ᴛᴏ- sᴜᴍɪᴛ """
         await fallen.send_photo(
             message.chat.id,
             photo=photo,

@@ -288,8 +288,7 @@ async def lego(event):
         fname = "fallen.png"
         img.save(fname, "png")
         await telethn.send_file(
-            event.chat_id, file=fname, caption=f"ʟᴏɢᴏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ 𝗕𝗘𝗟𝗟𝗬 ✘ 𝗥𝗢𝗕𝗢𝗧
-ʙᴀɴ ɢʏᴀ ʟᴏɢᴏ ɴᴏᴡ ɢɪᴠᴇ ᴘᴀʀᴛʏ ᴛᴏ sumit"
+            event.chat_id, file=fname, caption=f"ʟᴏɢᴏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ 𝗕𝗘𝗟𝗟𝗬 ✘ 𝗥𝗢𝗕𝗢𝗧"
         )
         await pesan.delete()
         if os.path.exists(fname):
